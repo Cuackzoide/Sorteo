@@ -40,5 +40,6 @@ Este proyecto, aunque es simple, implementa funcionalidades clave en el desarrol
 ---
 
 ### 📸 Vistazo Rápido
-Ingreso (assets/init.png)
-captura (assets/historic.png)
+![Ingreso a la web](assets/init.png)
+![Captura del historial](assets/historic.png)
+![Captura local Storage](assets/Local.png)
