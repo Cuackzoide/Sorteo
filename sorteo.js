@@ -108,7 +108,7 @@ guardar.addEventListener("click", guardarLista);
 
 //Despliega el historial guardado con anterioridad
 window.addEventListener("DOMContentLoaded", () => {
-    localStorage.removeItem("ListaHistorico");              //Descomentar ésta linea para limpiar los datos.
+    // localStorage.removeItem("ListaHistorico");              //Descomentar ésta linea para limpiar los datos.
     const datosGuardados = localStorage.getItem("ListaHistorico");
     const ul = document.getElementById("historico");
     ul.innerHTML = datosGuardados;
