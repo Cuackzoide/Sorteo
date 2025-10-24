@@ -1,333 +1,335 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    background-color: khaki;
-    color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  background-color: khaki;
+  color: white;
 }
 
 header {
-    padding: 10px;
-    background-color: lightpink;
+  padding: 10px;
+  background-color: lightpink;
 }
 
 section {
-    padding: 20px;
+  padding: 20px;
 }
 #title {
-    display: inline-block;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
-    border: 2px solid pink;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+  border: 2px solid pink;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 #cancion {
-    display: inline-block;
-    padding: 8px;
-    border-radius: 8px;
-    border: 2px solid pink;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  padding: 8px;
+  border-radius: 8px;
+  border: 2px solid pink;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 li {
-    display: inline-block;
-    list-style: none;
-    border: 1px solid #ccc;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+  display: inline-block;
+  list-style: none;
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 
 #ganador {
-    margin-top: 20px;
-    font-size: 1.5em;
-    text-shadow: 2px 2px 5px #111111;
+  margin-top: 20px;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 5px #111111;
 }
 button {
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-weight: bold;
 }
-#iniciar, #guardar {
-    margin-top: 20px;
-    font-size: 1.5em;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
-    cursor: pointer;
-    background-color: pink;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+#iniciar,
+#guardar {
+  margin-top: 20px;
+  font-size: 1.5em;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: pink;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-#iniciar:hover, #guardar:hover {
-    cursor: pointer;
-    background-color:plum;
-    box-shadow: 5px 5px 10px goldenrod;
+#iniciar:hover,
+#guardar:hover {
+  cursor: pointer;
+  background-color: plum;
+  box-shadow: 5px 5px 10px goldenrod;
 }
 
 .participante {
-    font-size: large;
+  font-size: large;
 }
 
 #Panda-rojo {
-    background-color: #fac074;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+  background-color: #fac074;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Panda-rojo:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
-    cursor: cell;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
+  cursor: cell;
 }
 
 #Jumbito {
-    background-color: #1fa02e;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+  background-color: #1fa02e;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Jumbito:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
 }
 
 #Truffy {
-    background-color: burlywood;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+  background-color: burlywood;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Truffy:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
 }
 
 #Cuncunita {
-    background-color: #00843b;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+  background-color: #00843b;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Cuncunita:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
 }
 
 #Vainilla {
-    background-color: #d0b07b;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+  background-color: #d0b07b;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Vainilla:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
 }
 
 #Nutri {
-    background-color:peachpuff;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+  background-color: peachpuff;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Nutri:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
 }
 
 #Teddy {
-    background-color:wheat;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+  background-color: wheat;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Teddy:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
 }
 
 #Caramel-macciato {
-    background-color: #aa7f53;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+  background-color: #aa7f53;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Caramel-macciato:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
 }
 
 #Mapache {
-    background-color:#93938f;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+  background-color: #93938f;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Mapache:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
 }
 
 #Ardillita {
-    background-color: #953b28;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+  background-color: #953b28;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Ardillita:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
 }
 
-#Ballenita{
-    background-color: #326192;
-    color: white;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+#Ballenita {
+  background-color: #326192;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Ballenita:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
 }
 
 #Oso-muy-gloton {
-    background-color: #3276a6;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+  background-color: #3276a6;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Oso-muy-gloton:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
 }
 
-#Margarita{
-    background-color: #d1b8d1;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+#Margarita {
+  background-color: #d1b8d1;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Margarita:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
 }
 
 #Choco {
-    background-color:#40221a;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+  background-color: #40221a;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Choco:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
 }
 
-#Oso-panda{
-    background-color: #111111;
-    color: white;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+#Oso-panda {
+  background-color: #111111;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Oso-panda:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
 }
 
 #Conejita {
-    background-color:#9b9e9b;
-    cursor: pointer;
-    display: inline-block;
-    list-style: none;
-    border: 2px solid #aaa;
-    padding: 8px;
-    margin: 8px;
-    border-radius: 8px;
+  background-color: #9b9e9b;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  border: 2px solid #aaa;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
 }
 #Conejita:hover {
-    color: white;
-    font-style: italic;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  font-style: italic;
+  box-shadow: 2px 2px 5px white;
 }

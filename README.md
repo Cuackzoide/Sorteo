@@ -10,24 +10,24 @@ El objetivo principal de esta aplicación (En este caso, ayuda a mi hija a elegi
 
 ### ✨ Características
 
-Este proyecto, aunque es simple, implementa funcionalidades clave en el desarrollo web *frontend* moderno:
+Este proyecto, aunque es simple, implementa funcionalidades clave en el desarrollo web _frontend_ moderno:
 
-| Característica | Desarrollo |
-| :--- | :--- |
-| **Generación Aleatoria** | Implementación de selección aleatoria utilizando `Math.random` y un *array* de datos. |
-| **Manipulación del DOM** | Despliegue dinámico de la lista de peluches (`Array` a elementos HTML), y visualización del ganador. |
-| **Interacción del Usuario** | Funcionalidad de edición, los elementos de la lista se eliminan con *clicks* y no participan del sorteo.|
-| **Persistencia de Datos** | Uso de `localStorage` para guardar el historial de selecciones, así historial persiste entre sesiones. |
-| **Gestión de Datos** | Uso de **Arrays** y **Objetos** de JavaScript para almacenar la lista y el registro histórico. |
-| **Experiencia de Usuario (UX)** | Pequeños efectos visuales ("jiggle del sorteo") para animar a la acción. |
+| Característica                  | Desarrollo                                                                                               |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------- |
+| **Generación Aleatoria**        | Implementación de selección aleatoria utilizando `Math.random` y un _array_ de datos.                    |
+| **Manipulación del DOM**        | Despliegue dinámico de la lista de peluches (`Array` a elementos HTML), y visualización del ganador.     |
+| **Interacción del Usuario**     | Funcionalidad de edición, los elementos de la lista se eliminan con _clicks_ y no participan del sorteo. |
+| **Persistencia de Datos**       | Uso de `localStorage` para guardar el historial de selecciones, así historial persiste entre sesiones.   |
+| **Gestión de Datos**            | Uso de **Arrays** y **Objetos** de JavaScript para almacenar la lista y el registro histórico.           |
+| **Experiencia de Usuario (UX)** | Pequeños efectos visuales ("jiggle del sorteo") para animar a la acción.                                 |
 
 ---
 
 ### 💻 Tecnologías Utilizadas
 
-* **HTML5:** Estructura semántica del contenido.
-* **CSS3:** Estilos básicos y uniformidad del contenido.
-* **JavaScript:** Toda la lógica del lado del cliente, manipulación del DOM y gestión de `localStorage`.
+- **HTML5:** Estructura semántica del contenido.
+- **CSS3:** Estilos básicos y uniformidad del contenido.
+- **JavaScript:** Toda la lógica del lado del cliente, manipulación del DOM y gestión de `localStorage`.
 
 ---
 
@@ -40,6 +40,7 @@ Este proyecto, aunque es simple, implementa funcionalidades clave en el desarrol
 ---
 
 ### 📸 Vistazo Rápido
+
 ![Ingreso a la web](assets/init.png)
 ![Captura del historial](assets/historic.png)
 ![Captura local Storage](assets/Local.png)
